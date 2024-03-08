@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Media/Images/accent_circular.png</file>
+        <file>qml/Media/Images/button_left.png</file>
+        <file>qml/Media/Images/button_right.png</file>
+        <file>qml/Backend/WatchdogBackend.qml</file>
+        <file>qml/main.qml</file>
+        <file>qml/Frontend/ContentFrontend.qml</file>
+        <file>qml/Components/Buttons/ImageButton.qml</file>
+        <file>qml/PopupScreens/ErrorPopup.qml</file>
+        <file>qml/Media/Images/hotreload.png</file>
+        <file>qml/Media/Images/on_off_button.png</file>
+        <file>qml/Media/Images/window_close.png</file>
+        <file>qml/Pages/MainPage.qml</file>
+        <file>qml/Pages/SubPage01.qml</file>
+        <file>qml/Backend/DataSimulatorBackend.qml</file>
+    </qresource>
+</RCC>
