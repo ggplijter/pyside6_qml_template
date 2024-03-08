@@ -36,12 +36,31 @@ Item {
         buttonWidth: buttonHeight
         sourceImage: "qrc:/qml/Media/Images/on_off_button.png"
 
+        Item{
+            width: 1000
+            height: parent.height
+            anchors.right: parent.left
+            anchors.verticalCenter: parent.verticalCenter
+            Text{
+                anchors.fill: parent
+                color: "red"
+                text: "click here for 👉\nattempt to solve 1/0.0 👉"
+                font.pointSize: 40
+                verticalAlignment: Text.AlignVCenter
+                horizontalAlignment: Text.AlignRight
+
+            }
+        }
+
         Image{
             id: img_accent_circular
             anchors.fill: parent
             source: "qrc:/qml/Media/Images/accent_circular.png"
             fillMode: Image.PreserveAspectFit
             z: -5
+
+
+
             SequentialAnimation
             {
                 id: sequentialAnim

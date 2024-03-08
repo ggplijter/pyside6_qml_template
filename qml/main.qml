@@ -37,11 +37,10 @@ ApplicationWindow {
         }
     }
     x: screen.virtualX
-    y: screen.virtualY  - 1
+    y: screen.virtualY -1
     width: screen.width > 1920 ? 1920 : screen.width
     height: screen.height > 1080 ? 1200 : screen.height + 1
     flags: Qt.Window | Qt.FramelessWindowHint
-    visibility: "FullScreen"
 
     Component.onCompleted: {
         // bind close-button of popup to button-close of mainPage
